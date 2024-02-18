@@ -1,0 +1,99 @@
+*
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #758498;
+}
+
+.todo{
+    width: 80%;
+    max-height: 80%;
+    margin:  5% 10% 10% 10% ;
+    cursor: pointer;
+    font-family: comic sans-serif monospace ,cursive ;
+    text-align: center;
+    background-color: #08182d;
+    border-radius: 30px;
+    border: 2px solid #f78844;
+    box-shadow: 9px 9px 25px black;
+}
+
+.header{
+    margin: 5%;
+}
+.header h1{
+    color: #2488f6;
+    font-size: 40px;
+    letter-spacing: 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+.header h1:hover{
+    color:#f78844 ;
+}
+#input{
+    font-size: 15px;
+    color: #fff;
+    padding:5px 25px ;
+    margin: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid #fff;
+}
+#submit{
+    font-size: 15px;
+    font-weight: bold;
+    color: #f78844;
+    padding:5px 25px ;
+    margin: 5px;
+    border:1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+}
+#submit:hover{  
+    background-color: #f78844;
+    color: #08182d;
+}
+.task-list{
+    width: 70%;
+    margin:  15% 10% 0% 15% ;
+    text-align: center;
+    cursor: pointer;
+    font-family: comic sans-serif monospace ,cursive ;
+    color: #fff;
+}
+.task-list h2{
+    color: #f78844;
+    font-size: 30px;
+    letter-spacing: 0.3rem;
+}
+#tasks{
+    width: 60%;
+    margin:  5% 10% 10% 20% ;
+}
+.content input{
+    font-size: 15px;
+    color: #fff;
+    padding:5px 25px ;
+    background-color: transparent;
+    border: none;
+}
+.edit{
+    cursor: pointer;
+    font-size: 10px;
+    color: #758498;
+    padding:2px 10px ;
+    border:1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent; 
+}
+.delete{
+    cursor: pointer;
+    font-size: 10px;
+    color: #758498;
+    padding:2px 10px ;
+    border:1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent; 
+}
+
